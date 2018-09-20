@@ -81,7 +81,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
       
         let cell = sender as! UITableViewCell
-        var photoViewController = segue.destination as! PhotoDetailsViewController
+        //var photoViewController = segue.destination as! PhotoDetailsViewController
         
        // photoViewController.image = self.imageView.imageb
         
@@ -89,7 +89,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         
         let indexPath = tableView.indexPath(for: cell)!
        // vc.image = url
-        //vc.image = self.imageView.image
+        vc.image = self.imageView.image
     }
     
    
