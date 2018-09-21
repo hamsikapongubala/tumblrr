@@ -28,7 +28,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough
 
-![](Lab2Tumblr.gif)
+![](Lab1_CodePath.gif)
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
