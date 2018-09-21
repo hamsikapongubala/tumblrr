@@ -12,15 +12,13 @@ class PhotoDetailsViewController: UIViewController {
 
    @IBOutlet weak var enlargedImageView: UIImageView!
     
-    
-        var image: UIImage!
-        
+             var post :URL!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       enlargedImageView.image = image
+       enlargedImageView.af_setImage(withURL: post)
         // Do any additional setup after loading the view.
     }
 
